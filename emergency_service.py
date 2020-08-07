@@ -11,3 +11,4 @@ def get_prediction(data):
 
 prediction = json.loads(json.loads(get_prediction())['body'])['predicted_label']
 print('The AI predicted: ', prediction)
+print('new change')
